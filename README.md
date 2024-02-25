@@ -12,3 +12,6 @@
 
 ### 參考文章:
 https://studyhost.blogspot.com/2024/02/semantic-kernel.html
+
+YT: 
+https://youtu.be/UN2i6FYlOiE
