@@ -29,8 +29,8 @@ internal class Program
 
         // 開始對談
         Console.Write("User > ");
-        string userInput;
-        while ((userInput = Console.ReadLine()) != null)
+        string? userInput;
+        while (!string.IsNullOrEmpty(userInput = Console.ReadLine()))
         {
             // Add user input
             history.AddUserMessage(userInput);
