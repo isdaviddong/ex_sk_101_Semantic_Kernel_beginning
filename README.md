@@ -1,6 +1,6 @@
 ## Semantic Kernel beginning
 
-這段程式碼是用 C# 寫的，它使用了 OpenAI 的 API 來創建一個 AI 聊天機器人。這個機器人可以與使用者進行對話，並可以直接呼叫一些特定的函數來執行特定的任務。  
+這段程式碼是用 C# 寫的，它使用了 Azure OpenAI 的 API 來建立一個 AI 聊天機器人。這個機器人可以與使用者進行對話，並可以直接呼叫一些特定的函數來執行特定的任務。  
 
 首先，程式碼定義了一個名為 LightPlugin 的類別。這個類別有兩個方法：GetState 和 ChangeState。這兩個方法都被標記為 KernelFunction，這意味著它們可以被 AI 呼叫。 
 
