@@ -22,7 +22,7 @@ internal class Program
 
         // Create chat history 物件，並且加入
         var history = new ChatHistory();
-        history.AddSystemMessage("你是一個親切的智能家庭助理，可以協助用戶回答問題，交談時請使用中文。");
+        history.AddSystemMessage("你是一個親切的智能家庭助理，可以協助用戶回答問題，並且幫我管理家電，交談時請使用中文。當我回家時，請主動幫我開燈，當我出門時，請記得幫我關燈。");
 
         // Get chat completion service
         var chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
